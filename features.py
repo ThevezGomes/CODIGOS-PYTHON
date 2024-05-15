@@ -31,7 +31,7 @@ def derrota(m):
     exit()
 
 def modo1(m , vidas , a , b):
-    n = int(input(f"\nVocê tem {vidas} vidas!\n\nDê um palpite de um número de {a} a {b}: "))
+    n = int(input(f"\nVocê tem {vidas} vida(s)!\n\nDê um palpite de um número de {a} a {b}: "))
     if quentefrio(m , n , a , b):
         vitoria(m)
     
